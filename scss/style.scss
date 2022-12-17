@@ -1,4 +1,3 @@
-// @use 'custom';
 
 // IMPORT THE COMPONENTS 
 @use 'components/animations';
@@ -12,8 +11,8 @@
 @use 'sections/intro-section';
 @use 'sections/campanies';
 @use 'sections/services';
-@use 'sections/testimonials';
+@use 'sections/test';
 @use 'sections/faq';
-@use 'sections/portfolio';
+@use 'sections/card';
 @use 'sections/get-started';
 @use 'sections/footer';
