@@ -18,7 +18,7 @@ if (path === '/login/') {
 async function testTemplates() {
   const posts = await postMethods.getListings();
   const post = posts.pop()
-  const container = document.querySelector("#post");
+  const container = document.querySelector("#product");
   renderPostTemplates(post, container);
 
 }
