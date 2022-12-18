@@ -34,7 +34,22 @@ npm install --save-dev prettier
 Npm init
 ```
 ```
-npm install bootstrap@next  - - save 
+npm install bootstrap@5.2.0
+```
+```
+npm install -D sass
+```
+```
+npm install -D live-server
+```
+
+```
+npm install -g npm
+```
+
+# API 
+```
+https://api.noroff.dev/api/v1/auction/listings
 ```
 
 
