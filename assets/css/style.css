@@ -2991,36 +2991,6 @@ textarea.form-control-lg {
   border-color: #198754;
 }
 
-.btn-info {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-.btn-info:hover {
-  color: #000;
-  background-color: #31d2f2;
-  border-color: #25cff2;
-}
-.btn-check:focus + .btn-info, .btn-info:focus {
-  color: #000;
-  background-color: #31d2f2;
-  border-color: #25cff2;
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
-}
-.btn-check:checked + .btn-info, .btn-check:active + .btn-info, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
-  color: #000;
-  background-color: #3dd5f3;
-  border-color: #25cff2;
-}
-.btn-check:checked + .btn-info:focus, .btn-check:active + .btn-info:focus, .btn-info:active:focus, .btn-info.active:focus, .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
-}
-.btn-info:disabled, .btn-info.disabled {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-
 .btn-warning {
   color: #000;
   background-color: #ffc107;
@@ -3213,31 +3183,6 @@ textarea.form-control-lg {
 }
 .btn-outline-success:disabled, .btn-outline-success.disabled {
   color: #198754;
-  background-color: transparent;
-}
-
-.btn-outline-info {
-  color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-.btn-outline-info:hover {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-.btn-check:focus + .btn-outline-info, .btn-outline-info:focus {
-  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);
-}
-.btn-check:checked + .btn-outline-info, .btn-check:active + .btn-outline-info, .btn-outline-info:active, .btn-outline-info.active, .btn-outline-info.dropdown-toggle.show {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-.btn-check:checked + .btn-outline-info:focus, .btn-check:active + .btn-outline-info:focus, .btn-outline-info:active:focus, .btn-outline-info.active:focus, .btn-outline-info.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);
-}
-.btn-outline-info:disabled, .btn-outline-info.disabled {
-  color: #0dcaf0;
   background-color: transparent;
 }
 
@@ -4383,7 +4328,7 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
-  .accordion-button {
+  .faq-button {
     transition: none;
   }
 }
@@ -4449,7 +4394,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
-.accordion-item:last-of-type .accordion-collapse {
+.faq-item:last-of-type .accordion-collapse {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
@@ -4458,21 +4403,21 @@ textarea.form-control-lg {
   padding: 1.5rem 1.5rem;
 }
 
-.faq-flush .accordion-collapse {
+.faq-flush .faq-collapse {
   border-width: 0;
 }
-.faq-flush .accordion-item {
+.faq-flush .faq-item {
   border-right: 0;
   border-left: 0;
   border-radius: 0;
 }
-.faq-flush .accordion-item:first-child {
+.faq-flush .faq-item:first-child {
   border-top: 0;
 }
-.faq-flush .accordion-item:last-child {
+.faq-flush .faq-item:last-child {
   border-bottom: 0;
 }
-.faq-flush .accordion-item .accordion-button {
+.faq-flush .faq-item .accordion-button {
   border-radius: 0;
 }
 
@@ -10748,7 +10693,6 @@ textarea.form-control-lg {
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
-  display: block;
 }
 .btn-rounded span {
   position: absolute;
@@ -10762,7 +10706,7 @@ textarea.form-control-lg {
 }
 .btn-rounded span i {
   color: #fff;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 2.5rem;
 }
 .btn-rounded:hover {
@@ -11136,5 +11080,4 @@ textarea.form-control-lg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
