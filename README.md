@@ -43,6 +43,9 @@ npm install -D sass
 npm install -D live-server
 ```
 
+```
+npm install -g npm
+```
 
 # API 
 ```
