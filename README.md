@@ -28,24 +28,13 @@ git clone https://github.com/vanjama/semester-project-1.git
 install 
 
 ```
-npm install --save-dev prettier
+npm i
 ```
 ```
-Npm init
+npm run build
 ```
-```
-npm install bootstrap@5.2.0
-```
-```
-npm install -D sass
-```
-```
-npm install -D live-server
 ```
 
-```
-npm install -g npm
-```
 
 # API 
 ```
