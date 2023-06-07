@@ -31,15 +31,15 @@ install
 npm i
 ```
 ```
+and 
+
+```
+```
 npm run build
 ```
-```
 
 
-# API 
-```
 https://api.noroff.dev/api/v1/auction/listings
-```
 
 
 # Contributing
