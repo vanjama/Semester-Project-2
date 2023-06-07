@@ -1,4 +1,5 @@
 # Semester-Project-2
+<img width="944" alt="image" src="https://github.com/vanjama/Semester-Project-2/assets/91538702/4ec7067e-e662-40b6-ab78-bfac6ac4aa9c">
 
 
 Project for my School. Semester project 2 in JS, API, Bootstrap - sass. 
