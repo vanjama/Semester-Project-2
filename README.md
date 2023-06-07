@@ -34,7 +34,6 @@ npm i
 and 
 
 ```
-```
 npm run build
 ```
 
